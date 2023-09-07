@@ -11,9 +11,9 @@ export const COUNTRIES: Country[] = [
 ];
 
 export const EATERIES: Eatery[] = [
-    { name: 'Comedor Familiar del Tio Moe', city: 'Springfield', country: 'USA', stars: 4},
-    { name: 'Central', city: 'Lima', country: 'Peru', stars: 5},
-    { name: 'Mestizo Vegano', city: 'Bogota', country: 'Colombia', stars: 0},
+    { id: 1, name: 'Comedor Familiar del Tio Moe', city: 'Springfield', country: 'USA', stars: 4, attainment: "2023-12-01"},
+    { id: 2, name: 'Central', city: 'Lima', country: 'Peru', stars: 5, attainment: "2023-07-20"},
+    { id: 3, name: 'Mestizo Vegano', city: 'Bogota', country: 'Colombia', stars: null, attainment: null},
 ];
 
 export const PRODUCTS: EmblemProduct[] = [
@@ -32,17 +32,20 @@ export const PRODUCTS: EmblemProduct[] = [
 ];
 
 export const RECIPES: Recipe[] = [
-    {   name: 'Sancocho Valluno',
+    {   id: 1,
+        name: 'Sancocho Valluno',
         description: 'Sancocho valluno o sancocho de gallina, el cual tiene origen en la región del Valle del Cauca, y se ha popularizado en todo el país cafetero.',
         plateImage: '',
         makingProcess: '',
         video: ''},
-    {   name: '',
+    {   id: 2,
+        name: '',
         description: '',
         plateImage: '',
         makingProcess: '',
         video: ''},
-    {   name: '',
+    {   id: 3,
+        name: '',
         description: '',
         plateImage: '',
         makingProcess: '',

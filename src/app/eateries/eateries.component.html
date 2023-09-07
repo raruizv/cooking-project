@@ -1,1 +1,22 @@
-<p>eateries works!</p>
+<div class="conteiner-fluid">
+    <table class="table table-warning table-hover">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Ciudad</th>
+                <th>Pais</th>
+                <th>Estrellas</th>
+                <th>Fecha de Obtencion</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let eatery of eateries">
+                <td>{{eatery.name}}</td>
+                <td>{{eatery.city}}</td>
+                <td>{{eatery.country}}</td>
+                <td>{{eatery.stars}}</td>
+                <td>{{eatery.attainment}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

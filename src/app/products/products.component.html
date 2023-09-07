@@ -1,1 +1,20 @@
-<p>products works!</p>
+<div class="container-fluid">
+    <table class="table table-success table-hover">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Descripcion</th>
+                <th>Antecedentes</th>
+                <th>Categoria</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let product of products">
+                <td>{{product.name}}</td>
+                <td>{{product.description}}</td>
+                <td>{{product.background}}</td>
+                <td>{{product.category}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
